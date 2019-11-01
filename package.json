@@ -1,0 +1,19 @@
+{
+  "name": "join-the-herd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "npm run clean && parcel build public/index.html",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.4",
+    "svelte": "^3.12.1"
+  }
+}
